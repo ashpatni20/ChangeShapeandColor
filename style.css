@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+
+}
+.mainDiv{
+    padding-top: 10%;
+    margin-bottom: 30px;
+}
+#heading{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #808080;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+#container{
+    background-color: white;
+    /* height: 70px;
+    width: 70px; */
+}
+.demo{
+    height: 70px;
+    width: 80px;
+}
+
+.circle{
+    /* height: 70px; */
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    /* border-radius: 0%; */
+
+}
+
+.rectangle{
+    height: 80px;
+    width: 120px;
+}
+
+.triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 70px;
+    width: 70px;
+}
